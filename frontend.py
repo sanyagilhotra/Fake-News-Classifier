@@ -15,4 +15,4 @@ with gr.Blocks() as demo:
     btn = gr.Button("Check News")
     btn.click(get_label, inputs=[content], outputs=output)
 
-demo.launch()
+demo.launch(share=True)
